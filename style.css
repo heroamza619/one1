@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+.icon-bar{
+    /* width: 90px; */
+    width: 100px;
+    background-color: black;
+    overflow: auto;
+    
+}
+
+.icon-bar a{
+    float: left;
+    display: block; 
+    width: 20px;
+    text-align: center;
+    padding: 12px;
+    color: rgb(101, 197, 221);
+    font-size: 36px;
+    transition: all 0.5s ease;
+}
+
+.icon-bar a:hover {
+    background-color: rgb(182, 247, 6);
+}
+
+.active {
+    background-color: rgb(6, 10, 1);
+}
